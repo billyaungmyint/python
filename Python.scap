@@ -1,0 +1,602 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<ScappleDocument ID="795F90F4-B10B-4A99-8EA2-2FEDF3201785" Version="1.1">
+   <Notes>
+      <Note Width="66.0889" FontSize="18" ID="0" Position="2424.3,1427.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Python</String>
+         <ConnectedNoteIDs>1-4, 6-10, 19-22, 57-58</ConnectedNoteIDs>
+      </Note>
+      <Note Width="36.6821" FontSize="18" ID="1" Position="2365.3,1555.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>List</String>
+         <ConnectedNoteIDs>0, 5, 59-60</ConnectedNoteIDs>
+      </Note>
+      <Note Width="91.2354" FontSize="18" ID="2" Position="2563.4,1562.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Dictionary</String>
+         <ConnectedNoteIDs>0, 61-62</ConnectedNoteIDs>
+      </Note>
+      <Note Width="35.6445" FontSize="18" ID="3" Position="2484.1,1519.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Set</String>
+         <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      </Note>
+      <Note Width="53.8208" FontSize="18" ID="4" Position="2283.8,1490.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Tuple</String>
+         <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      </Note>
+      <Note Width="181.726" FontSize="18" ID="5" Position="2135.5,1615.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>list comprehension</String>
+         <ConnectedNoteIDs>1</ConnectedNoteIDs>
+      </Note>
+      <Note Width="44.0308" FontSize="18" ID="6" Position="2606.4,1416.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Map</String>
+         <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      </Note>
+      <Note Width="49.2432" FontSize="18" ID="7" Position="2552.9,1329.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Filter</String>
+         <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      </Note>
+      <Note Width="33.5205" FontSize="18" ID="8" Position="2360.5,1329.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Zip</String>
+         <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      </Note>
+      <Note Width="72.3755" FontSize="18" ID="9" Position="2242.8,1425.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Reduce</String>
+         <ConnectedNoteIDs>0</ConnectedNoteIDs>
+      </Note>
+      <Note Width="50.5859" FontSize="18" ID="10" Position="2448.3,1841.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>OOP</String>
+         <ConnectedNoteIDs>0, 11, 15-18</ConnectedNoteIDs>
+      </Note>
+      <Note Width="54.5166" FontSize="18" ID="11" Position="2447.6,1923.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Class</String>
+         <ConnectedNoteIDs>10, 12-14</ConnectedNoteIDs>
+      </Note>
+      <Note Width="72.7539" FontSize="18" ID="12" Position="2496.8,1992.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>__init__</String>
+         <ConnectedNoteIDs>11</ConnectedNoteIDs>
+      </Note>
+      <Note Width="131.812" FontSize="18" ID="13" Position="2642.9,1981.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>@classmethod</String>
+         <ConnectedNoteIDs>11</ConnectedNoteIDs>
+      </Note>
+      <Note Width="132.861" FontSize="18" ID="14" Position="2233.5,1991.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>@staticmethod</String>
+         <ConnectedNoteIDs>11</ConnectedNoteIDs>
+      </Note>
+      <Note Width="101.758" FontSize="18" ID="15" Position="2606.2,1869.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Abstraction</String>
+         <ConnectedNoteIDs>10</ConnectedNoteIDs>
+      </Note>
+      <Note Width="100.708" FontSize="18" ID="16" Position="2296.8,1757.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Inheritence</String>
+         <ConnectedNoteIDs>10</ConnectedNoteIDs>
+      </Note>
+      <Note Width="125.903" FontSize="18" ID="17" Position="2241.3,1875.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Encapsulation</String>
+         <ConnectedNoteIDs>10</ConnectedNoteIDs>
+      </Note>
+      <Note Width="126.917" FontSize="18" ID="18" Position="2524.1,1755.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Polymorphism</String>
+         <ConnectedNoteIDs>10</ConnectedNoteIDs>
+      </Note>
+      <Note Width="158.032" FontSize="18" ID="19" Position="1571.8,1593.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Machine Learning</String>
+         <ConnectedNoteIDs>0, 25-27, 36-37</ConnectedNoteIDs>
+      </Note>
+      <Note Width="82.8491" FontSize="18" ID="20" Position="3099.7,1560.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Graphics</String>
+         <ConnectedNoteIDs>0, 30-33</ConnectedNoteIDs>
+      </Note>
+      <Note Width="45.7886" FontSize="18" ID="21" Position="1873.8,1161.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Web</String>
+         <ConnectedNoteIDs>0, 23, 34-35</ConnectedNoteIDs>
+      </Note>
+      <Note Width="42.1875" FontSize="18" ID="22" Position="2997.1,1197.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>GUI</String>
+         <ConnectedNoteIDs>0, 24</ConnectedNoteIDs>
+      </Note>
+      <Note Width="52.417" FontSize="18" ID="23" Position="1676.2,1197.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Flask</String>
+         <ConnectedNoteIDs>21</ConnectedNoteIDs>
+      </Note>
+      <Note Width="34.1797" FontSize="18" ID="24" Position="3221.8,1206.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>QT</String>
+         <ConnectedNoteIDs>22</ConnectedNoteIDs>
+      </Note>
+      <Note Width="111.206" FontSize="18" ID="25" Position="1219.8,1450.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Statsmodels</String>
+         <ConnectedNoteIDs>19, 43-44, 50</ConnectedNoteIDs>
+      </Note>
+      <Note Width="100.671" FontSize="18" ID="26" Position="1462.9,1449.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Scikit-learn</String>
+         <ConnectedNoteIDs>19, 45-46</ConnectedNoteIDs>
+      </Note>
+      <Note Width="131.799" FontSize="18" ID="27" Position="1576.1,1909.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Deep Learning</String>
+         <ConnectedNoteIDs>19, 28-29</ConnectedNoteIDs>
+      </Note>
+      <Note Width="71.3257" FontSize="18" ID="28" Position="1372.1,2042.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Pytorch</String>
+         <ConnectedNoteIDs>27</ConnectedNoteIDs>
+      </Note>
+      <Note Width="98.3398" FontSize="18" ID="29" Position="1846.6,2034.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Tensorflow</String>
+         <ConnectedNoteIDs>27</ConnectedNoteIDs>
+      </Note>
+      <Note Width="88.0859" FontSize="18" ID="30" Position="3031.2,1754.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Matplotlib</String>
+         <ConnectedNoteIDs>20, 51, 68</ConnectedNoteIDs>
+      </Note>
+      <Note Width="78.6743" FontSize="18" ID="31" Position="3341.0,1667.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Seaborn</String>
+         <ConnectedNoteIDs>20</ConnectedNoteIDs>
+      </Note>
+      <Note Width="53.4668" FontSize="18" ID="32" Position="2879.8,1643.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Plotly</String>
+         <ConnectedNoteIDs>20</ConnectedNoteIDs>
+      </Note>
+      <Note Width="75.5127" FontSize="18" ID="33" Position="2954.9,1467.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Plotnine</String>
+         <ConnectedNoteIDs>20</ConnectedNoteIDs>
+      </Note>
+      <Note Width="63.9526" FontSize="18" ID="34" Position="1685.7,1056.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Gradio</String>
+         <ConnectedNoteIDs>21</ConnectedNoteIDs>
+      </Note>
+      <Note Width="81.7871" FontSize="18" ID="35" Position="2046.8,1095.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Streamlit</String>
+         <ConnectedNoteIDs>21</ConnectedNoteIDs>
+      </Note>
+      <Note Width="101.758" FontSize="18" ID="36" Position="1119.4,1680.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Supervised</String>
+         <ConnectedNoteIDs>19, 38-39, 56</ConnectedNoteIDs>
+      </Note>
+      <Note Width="122.742" FontSize="18" ID="37" Position="1758.7,1659.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Unsupervised</String>
+         <ConnectedNoteIDs>19, 40-41</ConnectedNoteIDs>
+      </Note>
+      <Note Width="161.169" FontSize="18" ID="38" Position="888.4,1604.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Linear Regression</String>
+         <ConnectedNoteIDs>36, 52</ConnectedNoteIDs>
+      </Note>
+      <Note Width="166.492" FontSize="18" ID="39" Position="1208.6,1834.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Logistic Regression</String>
+         <ConnectedNoteIDs>36</ConnectedNoteIDs>
+      </Note>
+      <Note Width="138.086" FontSize="18" ID="40" Position="1815.2,1816.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Random Forest</String>
+         <ConnectedNoteIDs>37</ConnectedNoteIDs>
+      </Note>
+      <Note Width="92.2852" FontSize="18" ID="41" Position="1928.1,1725.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Clustering</String>
+         <ConnectedNoteIDs>37, 42</ConnectedNoteIDs>
+      </Note>
+      <Note Width="73.4131" FontSize="18" ID="42" Position="1993.6,1816.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>K-mean</String>
+         <ConnectedNoteIDs>41</ConnectedNoteIDs>
+      </Note>
+      <Note Width="137.83" FontSize="18" ID="43" Position="1192.2,1363.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>statsmodels.api</String>
+         <ConnectedNoteIDs>25</ConnectedNoteIDs>
+      </Note>
+      <Note Width="169.128" FontSize="18" ID="44" Position="982.8,1446.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>statsmodels.formula.api</String>
+         <ConnectedNoteIDs>25</ConnectedNoteIDs>
+      </Note>
+      <Note Width="156.311" FontSize="18" ID="45" Position="1503.9,1388.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>sklearn.linear_models</String>
+         <ConnectedNoteIDs>26</ConnectedNoteIDs>
+      </Note>
+      <Note Width="133.606" FontSize="18" ID="46" Position="1717.2,1435.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>sklearn.metrics</String>
+         <ConnectedNoteIDs>26, 47-49</ConnectedNoteIDs>
+      </Note>
+      <Note Width="80.1025" FontSize="18" ID="47" Position="1758.6,1357.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>r2_score</String>
+         <ConnectedNoteIDs>46</ConnectedNoteIDs>
+      </Note>
+      <Note Width="149.365" FontSize="18" ID="48" Position="1875.0,1420.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>confusion_matrix</String>
+         <ConnectedNoteIDs>46</ConnectedNoteIDs>
+      </Note>
+      <Note Width="159.546" FontSize="18" ID="49" Position="1775.0,1503.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>mean_absolute_error</String>
+         <ConnectedNoteIDs>46</ConnectedNoteIDs>
+      </Note>
+      <Note Width="84.2896" FontSize="18" ID="50" Position="1214.8,1527.3">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>summary</String>
+         <ConnectedNoteIDs>25</ConnectedNoteIDs>
+      </Note>
+      <Note Width="143.054" FontSize="18" ID="51" Position="2970.3,1934.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>matplotlib.pyplot</String>
+         <ConnectedNoteIDs>30</ConnectedNoteIDs>
+      </Note>
+      <Note Width="89.563" FontSize="18" ID="52" Position="731.0,1620.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>y = mx +b</String>
+         <ConnectedNoteIDs>38, 53-55</ConnectedNoteIDs>
+      </Note>
+      <Note Width="91.3208" FontSize="18" ID="53" Position="633.4,1700.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>coefficient</String>
+         <ConnectedNoteIDs>52</ConnectedNoteIDs>
+      </Note>
+      <Note Width="67.5171" FontSize="18" ID="54" Position="789.8,1712.9">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>p value</String>
+         <ConnectedNoteIDs>52</ConnectedNoteIDs>
+      </Note>
+      <Note Width="75.9033" FontSize="18" ID="55" Position="608.7,1602.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>r square</String>
+         <ConnectedNoteIDs>52</ConnectedNoteIDs>
+      </Note>
+      <Note Width="123.401" FontSize="18" ID="56" Position="865.7,1838.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Decision Tree</String>
+         <ConnectedNoteIDs>36</ConnectedNoteIDs>
+      </Note>
+      <Note Width="71.3379" FontSize="18" ID="57" Position="2344.7,1127.0">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Pandas</String>
+         <ConnectedNoteIDs>0, 63, 65</ConnectedNoteIDs>
+      </Note>
+      <Note Width="67.1143" FontSize="18" ID="58" Position="2570.5,1144.6">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>Numpy</String>
+         <ConnectedNoteIDs>0, 64</ConnectedNoteIDs>
+      </Note>
+      <Note Width="49.3896" FontSize="12" ID="59" Position="2318.0,1642.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>append</String>
+         <ConnectedNoteIDs>1</ConnectedNoteIDs>
+      </Note>
+      <Note Width="28.4058" FontSize="12" ID="60" Position="2220.3,1567.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>pop</String>
+         <ConnectedNoteIDs>1</ConnectedNoteIDs>
+      </Note>
+      <Note Width="27.0142" FontSize="12" ID="61" Position="2572.7,1653.1">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>key</String>
+         <ConnectedNoteIDs>2</ConnectedNoteIDs>
+      </Note>
+      <Note Width="37.5" FontSize="12" ID="62" Position="2647.7,1649.2">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>value</String>
+         <ConnectedNoteIDs>2</ConnectedNoteIDs>
+      </Note>
+      <Note Width="64.0503" FontSize="12" ID="63" Position="2264.1,1055.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>dataframe</String>
+         <ConnectedNoteIDs>57, 66-67</ConnectedNoteIDs>
+      </Note>
+      <Note Width="56.3721" FontSize="12" ID="64" Position="2632.8,1039.8">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>ndarrays</String>
+         <ConnectedNoteIDs>58</ConnectedNoteIDs>
+      </Note>
+      <Note Width="40.9912" FontSize="12" ID="65" Position="2435.2,1062.5">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>series</String>
+         <ConnectedNoteIDs>57</ConnectedNoteIDs>
+      </Note>
+      <Note Width="23.5107" FontSize="12" ID="66" Position="2232.0,984.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>loc</String>
+         <ConnectedNoteIDs>63</ConnectedNoteIDs>
+      </Note>
+      <Note Width="26.3062" FontSize="12" ID="67" Position="2379.7,984.4">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>iloc</String>
+         <ConnectedNoteIDs>63</ConnectedNoteIDs>
+      </Note>
+      <Note Width="81.0059" FontSize="12" ID="68" Position="3192.2,1904.7">
+         <Appearance>
+            <Alignment>Left</Alignment>
+            <Border Weight="0" Style="Rounded"/>
+         </Appearance>
+         <String>- Line Chart
+- Bar Chart
+- Scatter Plot
+- Pie Chart
+- Histogram</String>
+         <ConnectedNoteIDs>30</ConnectedNoteIDs>
+      </Note>
+   </Notes>
+   <BackgroundShapes/>
+   <NoteStyles>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Green Bubble" ID="62EEEBBC-CB6D-4196-9442-496F20458F3A" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.399100 0.583322 0.354864</BorderColor>
+         <FillColor>0.808835 0.872419 0.801343</FillColor>
+      </Style>
+      <Style AffectFontStyle="Yes" AffectAlignment="Yes" Name="Title Text" ID="15CA6985-9CA8-4862-B4B1-FE41C8EF7B4D" AffectTextColor="No" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <IsBold>Yes</IsBold>
+         <FontSize>12.0</FontSize>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Pink Bubble" ID="1C95A1C6-D575-418E-98A2-0E2B7861043F" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.690303 0.407263 0.550912</BorderColor>
+         <FillColor>0.898329 0.817472 0.865339</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Blue Bubble" ID="15A25C16-A6F6-4337-84B9-A4FB0EED2B9B" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.485893 0.568933 0.756207</BorderColor>
+         <FillColor>0.844068 0.869596 0.923064</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Yellow Bubble" ID="F48A05B2-7E48-4901-A664-B5D25185A0BA" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.769436 0.762219 0.390143</BorderColor>
+         <FillColor>0.912963 0.894118 0.644541</FillColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Red Text" ID="26B92052-BB5B-451C-87F6-3F6480CC02E2" AffectTextColor="Yes" AffectNoteBody="No" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <TextColor>1.0 0.0 0.0</TextColor>
+      </Style>
+      <Style AffectFontStyle="No" AffectAlignment="No" Name="Brown Bubble" ID="32463048-56C4-4D91-B652-9902A935EA78" AffectTextColor="No" AffectNoteBody="Yes" AffectSticky="No" AffectSize="No" AffectFade="No">
+         <BorderThickness>1</BorderThickness>
+         <BorderColor>0.269490 0.164034 0.186694</BorderColor>
+         <FillColor>0.934157 0.888319 0.785290</FillColor>
+      </Style>
+   </NoteStyles>
+   <UISettings>
+      <BackgroundColor>1.0 0.988006 0.945006</BackgroundColor>
+      <DefaultFont>Helvetica</DefaultFont>
+      <DefaultTextColor>0.0 0.0 0.0</DefaultTextColor>
+   </UISettings>
+   <PrintSettings VerticalPagination="Auto" HorizontalPagination="Clip" Orientation="Portrait" RightMargin="12.000000" BottomMargin="12.000000" HorizontallyCentered="Yes" ScaleFactor="1.000000" PagesAcross="1" PaperType="iso-a4" PagesDown="1" TopMargin="12.000000" Collates="Yes" PaperSize="-1.000000,-1.000000" LeftMargin="12.000000" VerticallyCentered="Yes"/>
+</ScappleDocument>

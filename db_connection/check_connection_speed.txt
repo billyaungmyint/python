@@ -1,0 +1,25 @@
+(dev) [root@rocky85 ~]# export DSN="dbname=dev host=localhost port=5432 user=user password=pass"
+(dev) [root@rocky85 ~]# time python -c "import os, psycopg2; print(psycopg2.connect(os.environ['DSN']))"
+<connection object at 0x7fa9a1b38e00; dsn: 'user=dev password=xxx dbname=dev host=localhost port=5432', closed: 0>
+
+real	0m0.054s
+user	0m0.027s
+sys	0m0.013s
+(dev) [root@rocky85 ~]# time psql -c "" "$DSN"
+
+real	0m0.269s
+user	0m0.005s
+sys	0m0.005s
+(dev) [root@rocky85 ~]# export DSN="dbname=dev host=localhost port=5432 user=user password=pass"
+(dev) [root@rocky85 ~]# time python -c "import os, psycopg2; print(psycopg2.connect(os.environ['DSN']))"
+<connection object at 0x7f13a2ccee00; dsn: , closed: 0>
+
+real	0m0.047s
+user	0m0.032s
+sys	0m0.008s
+(dev) [root@rocky85 ~]# time psql -c "" "$DSN"
+
+real	0m0.014s
+user	0m0.005s
+sys	0m0.003s
+(dev) [root@rocky85 ~]# 

@@ -1,0 +1,21 @@
+# https://www.programiz.com/python-programming/examples/lcm
+# the product of two numbers is equal to the product of the least common multiple and greatest common divisor of those two numbers.
+
+# Python program to find the L.C.M. of two input number
+
+# This function computes GCD 
+def compute_gcd(x, y):
+
+   while(y):
+       x, y = y, x % y
+   return x
+
+# This function computes LCM
+def compute_lcm(x, y):
+   lcm = (x*y)//compute_gcd(x,y)
+   return lcm
+
+num1 = 54
+num2 = 24 
+
+print("The L.C.M. is", compute_lcm(num1, num2))
