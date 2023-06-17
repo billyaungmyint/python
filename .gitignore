@@ -1,3 +1,4 @@
 data/fivethirtyeight
 streamlit/huggingface/simple_streamlit_app
 *.csv
+stable_diffusion/stable-diffusion-webui/
