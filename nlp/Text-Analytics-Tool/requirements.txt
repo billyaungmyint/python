@@ -1,0 +1,16 @@
+gensim
+numpy
+wordcloud
+textblob
+nltk
+streamlit
+rake_nltk
+spacy
+spacy_streamlit
+seaborn
+joblib
+sumy
+pandas
+matplotlib
+Pillow
+scikit_learn
