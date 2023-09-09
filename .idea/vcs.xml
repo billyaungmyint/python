@@ -2,8 +2,16 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nlp/Text-Analytics-Tool" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stable_diffusion/stable-diffusion-webui" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stable_diffusion/stable-diffusion-webui/repositories/BLIP" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stable_diffusion/stable-diffusion-webui/repositories/CodeFormer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stable_diffusion/stable-diffusion-webui/repositories/k-diffusion" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stable_diffusion/stable-diffusion-webui/repositories/stable-diffusion-stability-ai" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/stable_diffusion/stable-diffusion-webui/repositories/taming-transformers" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/streamlit/huggingface/multipage_streamlit_app" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/streamlit/huggingface/simple_streamlit_app" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/udemy/FastAPI-The-Complete-Course" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/udemy/langchain_llm/ice_breaker" vcs="Git" />
   </component>
 </project>

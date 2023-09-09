@@ -1,0 +1,14 @@
+D:\Google Drive\python\c_sharp\HelloWorld\bin\Debug\net6.0\HelloWorld.exe
+D:\Google Drive\python\c_sharp\HelloWorld\bin\Debug\net6.0\HelloWorld.deps.json
+D:\Google Drive\python\c_sharp\HelloWorld\bin\Debug\net6.0\HelloWorld.runtimeconfig.json
+D:\Google Drive\python\c_sharp\HelloWorld\bin\Debug\net6.0\HelloWorld.dll
+D:\Google Drive\python\c_sharp\HelloWorld\bin\Debug\net6.0\HelloWorld.pdb
+D:\Google Drive\python\c_sharp\HelloWorld\obj\Debug\net6.0\HelloWorld.GeneratedMSBuildEditorConfig.editorconfig
+D:\Google Drive\python\c_sharp\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfoInputs.cache
+D:\Google Drive\python\c_sharp\HelloWorld\obj\Debug\net6.0\HelloWorld.AssemblyInfo.cs
+D:\Google Drive\python\c_sharp\HelloWorld\obj\Debug\net6.0\HelloWorld.csproj.CoreCompileInputs.cache
+D:\Google Drive\python\c_sharp\HelloWorld\obj\Debug\net6.0\HelloWorld.dll
+D:\Google Drive\python\c_sharp\HelloWorld\obj\Debug\net6.0\refint\HelloWorld.dll
+D:\Google Drive\python\c_sharp\HelloWorld\obj\Debug\net6.0\HelloWorld.pdb
+D:\Google Drive\python\c_sharp\HelloWorld\obj\Debug\net6.0\HelloWorld.genruntimeconfig.cache
+D:\Google Drive\python\c_sharp\HelloWorld\obj\Debug\net6.0\ref\HelloWorld.dll
