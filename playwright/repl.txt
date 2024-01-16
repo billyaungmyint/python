@@ -1,0 +1,19 @@
+>>> from playwright.sync_api import sync_playwright
+>>> playwright = sync_playwright().start()
+>>> browser = playwright.chromium.launch(headless = False , slow_mo = 5000)
+>>> browser
+<Browser type=<BrowserType name=chromium executable_path=C:\Users\Dreambuilds\AppData\Local\ms-playwright\chromium-1080\chrome-win\chrome.exe> version=117.0.5938.62>
+>>> page = browser.new_page()
+>>> page
+<Page url='about:blank'>
+>>> page.goto("https://playwright.dev/python")
+<Response url='https://playwright.dev/python/' request=<Request url='https://playwright.dev/python/' method='GET'>>
+>>> page.get_by_role('link',name="GET STARTED")
+<Locator frame=<Frame name= url='https://playwright.dev/python/'> selector='internal:role=link[name="GET STARTED"i]'>
+>>> btn = page.get_by_role('link',name="GET STARTED")
+>>> btn
+<Locator frame=<Frame name= url='https://playwright.dev/python/'> selector='internal:role=link[name="GET STARTED"i]'>
+>>> btn.highlight()
+>>> btn.click()
+>>> browser.close()
+>>> playwright.stop()

@@ -1,0 +1,94 @@
+# https://www.jobstreet.com.sg/en/job/quality-engineer-software-automation-specialist-govtech-up-to-s%247000-11061981?jobId=jobstreet-sg-job-11061981&sectionRank=5&token=0~b027dae5-67a3-47eb-8ef6-d450e1e495b8&searchPath=%2Fselenium-jobs&fr=SRP%20View%20In%20New%20Tab
+Must have a Diploma or Degree in Software Engineering, Computer Engineering, Electrical Engineering, Infocomm, or related
+At least 3 years of professional software quality testing experience with hands-on automation or;
+At least 5 years of experience in application exploratory testing and regression test automation, application performance testing or security testing.
+ISTQB, CSQA, CSTP or other relevant certification is an added advantage
+Must have strong troubleshooting and debugging skills
+Strong understanding of testing techniques, risk analysis 
+Experience with automation scripting (i.e. shell scripts)
+Experience with open-source automated testing frameworks (i.e. Selenium Webdriver, Robot, Appium)
+Experience with open-source performance testing tools (i.e. JMeter, Gatling, Locust) or enterprise level testing tools (HP LoadRunner, HP Mobile Center, HP UFT, HP QC, Sprinter) (CDS / NPHC / GDX GX)
+Experience with open-source penetration testing tools (ZAP, Burp Suite, SQL Map) or enterprise level penetration testing tools (HP WebInspect, Nessus, CheckMarx)
+Working experience in Agile environment will be an added advantage
+
+Goal for 2024
+
+- Python , JS Mastery  (Cypress ? Robot ? BDD ? Jmeter ? Appium ? ZAP ? Burp ? )
+
+
+Python - Playwright , Scrapy , Beautifulsoup , Flask , FastAPI , Numpy , Pandas
+Javascript - Node
+Typescript - Playwright
+# C# - MVC , Razor , Blazor
+
+October - Selenium with Python + Pytest
+
+- Selenium Webdriver with PYTHON & PYTEST - Best for beginners - Udemy - Now
+- Selenium Webdriver with PYTHON from Scratch + Frameworks - NLB - Now
+- Selenium WebDriver: Selenium Automation Testing with Python - Udemy - Now
+
+Nov - Selenium with Python + Pytest
+
+- Design & Build Test Framework with Python Pytest | API Tests - Udemy
+
+Dec - Revision + Project
+
+Jan - Scrapy + Beautiful Soup + Jmeter
+
+- Scrapy Masterclass: Learn Web Scraping With Scrapy Framework - Udemy
+- Scrapy Unleashed: Master Python Web Scraping & Data Pipeline - Udemy
+- The Ultimate Web Scraping With Python Bootcamp 2023 - Udemy
+
+- Learn JMETER from Scratch on Live Apps -Performance Testing - Udemy
+- Learn JMeter - Performance & API Testing - NLB
+
+Feb - Scrapy + Beautiful Soup + Jmeter
+
+Mar - Revision
+
+Apr - Javascript / Typescript + Playwright with Typescript
+
+- TypeScript for Professionals - 2023 Edition - NLB
+- Professional Playwright Testing and Web Automation - 2023 - Udemy
+- Master API Testing and Automation using TypeScript - Udemy
+- Playwright JS Automation Testing from Scratch with Framework - NLB
+- Playwright Python and Pytest for Web Automation Testing - Udemy 
+- Automated Web Testing with JavaScript and Playwright - NLB
+
+May- Javascript / Typescript + Playwright with Typescript
+
+June - Revision + Project
+
+July - Node
+
+- NodeJS Tutorial and Projects Course - NLB
+- Node.js, Express, MongoDB & More: The Complete Bootcamp 2023 - NLB
+- NodeJS complete course | Node JS & Express JS for Beginners - Udemy
+- Complete NodeJS course with express, socket io and MongoDB - Udemy
+- Become a Node.js developer:/Node.js/Express.js/MongoDB/API - Udemy
+
+Aug - Revision + Project
+
+Sept - Flask 
+
+- Web Developer Bootcamp with Flask and Python in 2023 - Udemy
+- REST APIs with Flask and Python in 2023 - Udemy
+- Advanced REST APIs with Flask and Python - Udemy
+
+Oct - Revision + Project
+
+Nov - FastAPI
+
+- Use Python FastAPI to create a weather website - Udemy
+- Complete FastAPI masterclass from scratch - NLB
+- FastAPI - The Complete Course 2023 (Beginner + Advanced) - NB
+
+Dec - Revision + project
+
+Jan - Numpy , Pandas , Machine Learning
+
+- Business Data Analytics & Intelligence with Python 2023 - Udemy
+- Complete Machine Learning & Data Science Bootcamp 2023 - Udemy
+
+
+

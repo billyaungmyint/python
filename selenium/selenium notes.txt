@@ -1,0 +1,174 @@
+# IE Edge mode template
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service  # to get the browser object
+from selenium.webdriver.common.by import By
+# if you see select tag , go with Select
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.ui import WebDriverWait  # for explicit waits
+from selenium.webdriver.support import expected_conditions  # for explicit waits
+import time  # for time.sleep
+
+ie_options = webdriver.IeOptions()
+ie_options.attach_to_edge_chrome = True
+ie_options.edge_executable_path = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
+
+driver = webdriver.Ie(options=ie_options)
+
+# global timeout - implicit - good to have both explicit and implicit wait ...
+driver.implicitly_wait(5)
+# only 10 sec for this element
+# wait = WebDriverWait(driver, 10)
+# wait.until(expected_conditions.presence_of_element_located(
+#     By.CSS_SELECTOR, ".promoInfo"))
+
+# if classname then starts with . , id then starts with #
+# driver.find_element(By.CSS_SELECTOR , "#name").send_keys(name)
+# driver.find_element(By.CSS_SELECTOR, ".promoBtn").click()
+
+# if CSS_SELECTOR then space and no // or @ , if XPATH then //[@]/
+# driver.find_elements(By.XPATH, "//div[@class='products']/div")
+# driver.find_element(By.XPATH, "//button[text()='PROCEED TO CHECKOUT']").click()
+# prices = driver.find_elements(By.CSS_SELECTOR, "tr td:nth-child(5) p")
+
+
+# maximise the browser
+driver.maximize_window()
+# go to the site
+URL = "https://www.google.com.sg"
+driver.get(URL)
+
+time.sleep(2)
+driver.close() # or driver.close() wont work unless the site must be loaded in iemode
+
+-----------------
+
+# selenium edge template
+
+from selenium import webdriver
+# from selenium.webdriver.common.by import By
+from selenium.webdriver.chrome.service import Service
+# import time
+
+options = webdriver.EdgeOptions()
+options.add_argument('log-level=3') # to supress all kind of infos, warnings, errors or fatal messages (might suggest using only level 2 for errors)
+# https://stackoverflow.com/questions/46423361/chrome-devmode-suddenly-turning-on-in-selenium
+options.add_experimental_option('excludeSwitches', ['enable-logging']) # to disable devmode logging
+# driver = webdriver.Edge(options=options)
+
+service_obj = Service() # this will take care of the browser exe , if want to be faster, place the path here
+driver = webdriver.Edge(service=service_obj,options=options)
+
+driver.get("https://rahulshettyacademy.com/") # open the browser
+
+time.sleep(2)
+driver.close() # close the browser
+
+--------------
+
+# Chrome template 
+
+from selenium import webdriver
+from selenium.webdriver.chrome.service import Service  # to get the browser object
+from selenium.webdriver.common.by import By
+# if you see select tag , go with Select
+from selenium.webdriver.support.select import Select
+from selenium.webdriver.support.ui import WebDriverWait  # for explicit waits
+from selenium.webdriver.support import expected_conditions  # for explicit waits
+import time  # for time.sleep
+
+# https://stackoverflow.com/questions/65755603/selenium-ssl-client-socket-impl-cc-handshake-failed
+options = webdriver.ChromeOptions()
+# to supress all kind of infos, warnings, errors or fatal messages (might suggest using only level 2 for errors)
+options.add_argument('log-level=3')
+# https://stackoverflow.com/questions/46423361/chrome-devmode-suddenly-turning-on-in-selenium
+options.add_experimental_option(
+    'excludeSwitches', ['enable-logging'])  # to disable devmode logging
+# options.add_argument("--start-maximized")
+# options.add_argument("headless")
+# options.add_argument("--ignore-cretificate-errors")
+
+# this will take care of the browser exe , if want to be faster, place the path here
+service_obj = Service()
+driver = webdriver.Chrome(service=service_obj, options=options)
+# global timeout - implicit - good to have both explicit and implicit wait ...
+driver.implicitly_wait(5)
+# only 10 sec for this element
+# wait = WebDriverWait(driver, 10)
+# wait.until(expected_conditions.presence_of_element_located(
+#     By.CSS_SELECTOR, ".promoInfo"))
+
+# if classname then starts with . , id then starts with #
+# driver.find_element(By.CSS_SELECTOR , "#name").send_keys(name)
+# driver.find_element(By.CSS_SELECTOR, ".promoBtn").click()
+
+# if CSS_SELECTOR then space and no // or @ , if XPATH then //[@]/
+# driver.find_elements(By.XPATH, "//div[@class='products']/div")
+# driver.find_element(By.XPATH, "//button[text()='PROCEED TO CHECKOUT']").click()
+# prices = driver.find_elements(By.CSS_SELECTOR, "tr td:nth-child(5) p")
+
+
+# maximise the browser
+driver.maximize_window()
+# go to the site
+URL = "https://the-internet.herokuapp.com/windows"
+driver.get(URL)
+
+# code here
+
+
+# wait for 2 seconds before closing thee browser
+time.sleep(2)
+driver.close()  # or use driver.quit()
+
+
+------------------
+
+# Simply chrome template
+
+import time
+from selenium import webdriver
+
+# https://stackoverflow.com/questions/75160044/how-to-resolve-this-error-in-selenium-error-couldnt-read-tbscertificate-as-s
+options = webdriver.ChromeOptions()
+options.add_experimental_option('excludeSwitches', ['enable-logging'])
+
+# then add the options to the Chrome
+driver = webdriver.Chrome(options=options)
+time.sleep(5)
+
+driver.get("https://practicetestautomation.com/practice-test-login/")
+time.sleep(5)
+
+---------------------------
+
+common browser commands
+
+driver.get("https://ww.google.com/") # open the browser
+driver.maximize_window()
+print(driver.title)
+print(driver.current_url)
+driver.minimize_window()
+driver.back() 
+driver.refresh()
+driver.forward()
+
+using xpath - //tag[@attribute='value']
+<input type="text" name="username" id="username"> -  //input[@id='username']
+<button id="submit" class="btn">Submit</button> - //button[@class='btn'] (try typing $x("//button") in developer console to see how many buttons are there)
+
+# <input type="text" name="username" id="username">
+# username_locator = driver.find_element(By.XPATH , "//input[@class='username']").send_keys("student")
+username_locator = driver.find_element(By.ID , "username")
+username_locator.send_keys("student")
+
+# <input type="password" name="password" id="password">
+# username_locator = driver.find_element(By.XPATH , "//input[@name='password']").send_keys("Password123")
+password_locator = driver.find_element(By.NAME , "password")
+password_locator.send_keys("Password123")
+
+# <button id="submit" class="btn">Submit</button>
+# submit_button = driver.find_element(By.ID , "submit").click()
+submit_button = driver.find_element(By.XPATH , "//button[@class='btn']")
+submit_button.click()
+

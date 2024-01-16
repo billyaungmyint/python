@@ -8,7 +8,7 @@ url = 'https://en.lottolyzer.com/history-export-csv/singapore/toto/ToTo.csv'
 data = pd.read_csv(url)
 # make a lit of 1 - 49 numbers - the numbers that are in the TOTO
 all_numbers = list(range(1, 50))
-unlucky_numbers = [1,4,9,8,12,18,24,34,42,44] # manual entry ,  otherwise blank
+unlucky_numbers = [8,10,11,25,37,38,44] # manual entry ,  otherwise blank
 
 def removeNumbersFromList(l1, l2):
     return [x for x in l1 if x not in l2]
@@ -38,7 +38,7 @@ winning_number = winning_number.rename({'Winning Number 1': '1', 'Additional Num
 # transposed_winning_number10 = winning_number10.transpose()
 
 # make a new list of winning numbers of the most recent 10 winning numbers 
-winning_list = winning_number.iloc[0:9].values.tolist()
+winning_list = winning_number.iloc[0:3].values.tolist()
 winning_list2 = flatten(winning_list)
 # remove the past winning numbers from the 1-50 list - since past winnings are usually not repeated
 final_list1 = removeNumbersFromList(all_numbers, winning_list2)
@@ -48,8 +48,8 @@ final_list = removeNumbersFromList(final_list1 , unlucky_numbers)
 # final list
 test = []
 # print a list of 5 lists of 6 numbers each
-for i in range(5): # 5 is how many list of numbers 
-    test.append(list2size(final_list,sizes = [6])) # 6 is the number of items within each sublist - if system 7 , then put 7.
+for i in range(3): # 5 is how many list of numbers 
+    test.append(list2size(final_list,sizes = [7])) # 6 is the number of items within each sublist - if system 7 , then put 7.
 #print(winning_number10)
 #print('After transposed')
 # print(transposed_winning_number10)

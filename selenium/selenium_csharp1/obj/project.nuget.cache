@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "woJDF8AIKsb1G7wjIuxNBnHWsuxIurZb+YYjQE4rpdsGmx18SgCugKns6m+mJP4MQWLn0MvOYXeoflwmKQ2H8A==",
+  "success": true,
+  "projectFilePath": "D:\\Google Drive\\python\\selenium\\selenium_csharp1\\selenium_csharp1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\microsoft.playwright\\1.38.0\\microsoft.playwright.1.38.0.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\microsoft.win32.systemevents\\7.0.0\\microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\selenium.webdriver\\4.13.1\\selenium.webdriver.4.13.1.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\system.drawing.common\\7.0.0\\system.drawing.common.7.0.0.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\system.text.json\\7.0.3\\system.text.json.7.0.3.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.22\\microsoft.windowsdesktop.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.22\\microsoft.netcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.22\\microsoft.aspnetcore.app.ref.6.0.22.nupkg.sha512",
+    "C:\\Users\\Dreambuilds\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.22\\microsoft.netcore.app.host.win-x64.6.0.22.nupkg.sha512"
+  ],
+  "logs": []
+}

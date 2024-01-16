@@ -1,0 +1,100 @@
+https://www.browserstack.com/guide/playwright-python-tutorial
+https://assets.ctfassets.net/ut4a3ciohj8i/2x9exeEMY2KQ0kMd59HR8S/727f9cf04bbbaaef7168ed24087f0124/Playwright_Test.pdf
+
+from playwright.sync_api import sync_playwright
+playwright = sync_playwright().start()
+browser = playwright.chromium.launch(headless=False,slow_mo=1000)
+page = browser.new_page()
+page.goto("https://bootswatch.com/default")
+
+Using CSS Selectors
+
+page.get_by_role("button" , name = "Primary").nth(0).highlight()
+page.get_by_role("button" , name = "Primary").locator("nth=1").highlight()
+page.locator("button").locator("nth=18").highlight()
+page.get_by_label("Email address").locator("..").highlight() // .. means parent locator
+page.locator("id=btnGroupDrop1").highlight()
+page.locator("div.dropdown-menu").locator("visible=true").highlight()
+page.locator("div.form-group").filter(has=page.get_by_label("Password")).highlight()
+page.get_by_role("button" , name="Block button").highlight()
+page.get_by_role("button" , name="Block button").highlight()
+page.get_by_role("button" , name="Block button").last.highlight()
+
+
+Using xpath
+
+page.locator("xpath=//h1").highlight()
+page.locator("xpath=//h1[@id='navbars']").highlight()
+page.locator("//input[@value='wrong value']").highlight()
+page.locator("//h1[text() = 'Heading 1']").highlight()
+page.locator("//button[contains(@class , 'btn-outline-primary')]").highlight()
+page.locator("//button[@class='btn btn-outline-primary']").highlight()
+
+
+Actions
+
+button = page.get_by_role("button" , name="Block button").first
+button.click()
+button.dblclick()
+button.dblclick(delay=500) // delay in milliseconds
+button.click(button="right")
+button.click(modifiers=["Shift"])
+page.locator("button.btn-outline-primary").hover()
+
+
+Inputs
+
+page.locator("input").highlight()
+page.get_by_label("Email address").highlight()
+page.get_by_placeholder("Enter email").highlight()
+
+page.get_by_placeholder("Enter email").fill("test 123")
+page.get_by_placeholder("Enter email").clear()
+page.get_by_placeholder("Enter email").type("typing this")
+page.get_by_placeholder("Enter email").type("typing this", delay=100) // delay in milliseconds
+
+valid_input = page.get_by_label("Valid input").first
+valid_input.input_value() // get the entered value 
+
+Radio buttons / Checkboxes / Switches
+
+page.locator("div.form-check").highlight()
+page.get_by_label("Option two can be something else and selecting it will deselect option one").highlight()
+radio_option2.check()
+
+checkbox = page.get_by_label("Default checkbox")
+checkbox.check()
+checkbox.is_checked()
+checkbox.uncheck()
+
+checkbox.set_checked(True)
+checkbox.set_checked(False)
+
+Select option from option menu
+
+select = page.get_by_label("Example Select")
+select.select_option("4")
+
+multi_select = page.get_by_label("Example multiple select")
+multi_select.select_option(["1","3","5"])
+
+Dropdown menu
+
+dropdown = page.locator("button#btnGroupDrop1")
+dropdown.click()
+page.locator("div.dropdown-menu").highlight()
+page.locator("div.dropdown-menu:visible").highlight()
+page.locator("div.dropdown-menu:visible a:text('Dropdown link')").highlight()                                                                  ^
+page.locator("div.dropdown-menu:visible a:text('Dropdown link')").last.highlight()
+
+
+-----------
+
+ITA - has frames
+
+page.locator("[name=userId]").fill("drsysadm")
+page.get_by_role("button" , name = "Login").click()
+page.frame("toptmpl").get_by_role("link" , name="Logout").highlight()
+page.frame("heading").get_by_role("link" , name="Issue Tracking").nth(1).highlight()
+page.frame("HomeTreeFrame").get_by_role("link" , name="Filemaint").highlight()
+page.frame("HomeTreeFrame").get_by_role("link" , name="Filemaint").highlight()

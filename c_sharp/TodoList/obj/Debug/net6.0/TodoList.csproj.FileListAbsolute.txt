@@ -1,0 +1,14 @@
+D:\Google Drive\python\c_sharp\TodoList\bin\Debug\net6.0\TodoList.exe
+D:\Google Drive\python\c_sharp\TodoList\bin\Debug\net6.0\TodoList.deps.json
+D:\Google Drive\python\c_sharp\TodoList\bin\Debug\net6.0\TodoList.runtimeconfig.json
+D:\Google Drive\python\c_sharp\TodoList\bin\Debug\net6.0\TodoList.dll
+D:\Google Drive\python\c_sharp\TodoList\bin\Debug\net6.0\TodoList.pdb
+D:\Google Drive\python\c_sharp\TodoList\obj\Debug\net6.0\TodoList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Google Drive\python\c_sharp\TodoList\obj\Debug\net6.0\TodoList.AssemblyInfoInputs.cache
+D:\Google Drive\python\c_sharp\TodoList\obj\Debug\net6.0\TodoList.AssemblyInfo.cs
+D:\Google Drive\python\c_sharp\TodoList\obj\Debug\net6.0\TodoList.csproj.CoreCompileInputs.cache
+D:\Google Drive\python\c_sharp\TodoList\obj\Debug\net6.0\TodoList.dll
+D:\Google Drive\python\c_sharp\TodoList\obj\Debug\net6.0\refint\TodoList.dll
+D:\Google Drive\python\c_sharp\TodoList\obj\Debug\net6.0\TodoList.pdb
+D:\Google Drive\python\c_sharp\TodoList\obj\Debug\net6.0\TodoList.genruntimeconfig.cache
+D:\Google Drive\python\c_sharp\TodoList\obj\Debug\net6.0\ref\TodoList.dll
